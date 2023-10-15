@@ -1,0 +1,31 @@
+.border {
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 18px;
+    
+   
+}
+
+.toggleText {
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+.cardsWrapper {
+    margin-top: 18px;
+    
+}

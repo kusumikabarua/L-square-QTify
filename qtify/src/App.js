@@ -36,8 +36,8 @@ function App() {
      <HeroImage />
      <div>
       <Section data ={topAlbumsData} type="album" title="Top Albums"/>
-      {/* <Section data ={newAlbumsData} type="album" title="New Albums"/>
-      <Section data ={songsData} type="song" title="Songs"/> */}
+      <Section data ={newAlbumsData} type="album" title="New Albums"/>
+      <Section data ={songsData} type="song" title="Songs"/>
      </div>
     
     

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Section from "./components/Section/Section";
 import { useState, useEffect } from "react";
 import { fetchNewAlbums, fetchSongs, fetchTopAlbums } from "./api/api";
+import FaqSection from "./components/FaqSection/FaqSection";
 
 function App() {
   const [topAlbumsData, setTopAlbumsData] = useState([]);
@@ -118,6 +119,7 @@ function App() {
           handleChange={handleChange}
           toggle={toggle}
         />
+       <FaqSection />
       </div>
     </div>
   );
